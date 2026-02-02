@@ -5,6 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
+    "build:vercel": "NG_APP_API_URL=http://16.171.140.94:5000 ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
