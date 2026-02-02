@@ -1,9 +1,6 @@
 {
   "buildCommand": "ng build",
   "outputDirectory": "dist/indoor-localization/browser",
-  "env": {
-    "NG_APP_API_URL": "http://16.171.140.94:5000"
-  },
   "rewrites": [
     {
       "source": "/:path*",
